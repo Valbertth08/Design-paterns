@@ -1,6 +1,6 @@
 package Composite;
 
-public class Jogo  implements  CompositeCaixa{
+public class Jogo  implements CompositeCaixa{
 
     private String name;
     private Double preco;
@@ -19,10 +19,8 @@ public class Jogo  implements  CompositeCaixa{
     }
 
 
-
     @Override
     public void mostrarJogo() {
-
-        System.out.println( "nome=" + name +" Preco: "+preco);
+        System.out.println("nome=" + name +" Preco: "+preco);
     }
 }
