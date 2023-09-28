@@ -10,6 +10,7 @@ public class Main {
 
        concretoMediator.setUsuarios(new Usuario("Carlos", 9892837L,concretoMediator));
 
+       System.out.println("TRECHO : Maiobão para São Luis --- 9.8KM.");
        concretoMediator.receberPreco();
 
     }
