@@ -1,7 +1,6 @@
 package Bridge;
 
 public class ContaInstagram  implements RedeSocial{
-    
     private User user;
     private Notificacao notificacao;
 
