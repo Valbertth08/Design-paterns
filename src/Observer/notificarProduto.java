@@ -2,5 +2,5 @@ package Observer;
 
 public interface notificarProduto {
 
-    public void  noticar(Produto p);
+    public void  notificar(Produto p);
 }

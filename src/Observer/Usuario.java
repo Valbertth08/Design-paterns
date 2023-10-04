@@ -49,7 +49,7 @@ public class Usuario  implements notificarProduto{
     }
 
     @Override
-    public void noticar(Produto p) {
+    public void notificar(Produto p) {
         System.out.println("Notificação para: "+name);
         System.out.println("Alteração no valor do produto:\nNome: "+p.getName()+"\nId Produto: "+p.getId()+"\nPreço: "+String.format("%.2f.",p.getPrice()));
         System.out.println();

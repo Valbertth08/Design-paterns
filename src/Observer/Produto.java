@@ -34,7 +34,7 @@ public class Produto {
         this.price = price;
 
         for (notificarProduto n: this.notificar){
-            n.noticar(this);
+            n.notificar(this);
         }
     }
 
