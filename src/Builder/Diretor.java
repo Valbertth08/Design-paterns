@@ -8,7 +8,6 @@ public class Diretor {
         builder.setIngredientes("Frango,oregano,tomate,azeitona");
         builder.setBorda("corda");
         builder.seRecheioDaBorda("catupiry");
-
     }
     public static void criarPizzaCalabresa(Builder builder){
         builder.setMassa("siciliana");

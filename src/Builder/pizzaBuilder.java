@@ -5,7 +5,6 @@ public class pizzaBuilder  implements  Builder{
     @Override
     public void setMassa(String massa) {
         pizza.setMassa(massa);
-
     }
     @Override
     public void setIngredientes(String ingredientes) {
@@ -22,7 +21,6 @@ public class pizzaBuilder  implements  Builder{
     public void seRecheioDaBorda(String recheio) {
         pizza.setRecheioBorda(recheio);
     }
-
     @Override
     public Pizza getPizza(){
         Pizza pizza= this.pizza;

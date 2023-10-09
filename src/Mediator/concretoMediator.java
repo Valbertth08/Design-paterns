@@ -14,11 +14,10 @@ public class concretoMediator  implements Mediator{
         motoristas.add(motorista);
     }
     public  void  setUsuarios(Usuario usuario){
-       this.usuario=usuario;
+
+        this.usuario=usuario;
     }
-
     public void receberPreco() {
-
         Motorista motorista= motoristas.stream().min((x, y)->x.getPreco().compareTo(y.getPreco())).get();
         this.enviarMensagem(motorista);
     }

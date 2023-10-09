@@ -1,7 +1,6 @@
 package Proxy;
 
 public class Youtube {
-
     private BibliotecaYoutube bibliotecaYoutube;
 
     public Youtube(BibliotecaYoutube bibliotecaYoutube) {

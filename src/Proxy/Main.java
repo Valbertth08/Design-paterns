@@ -15,7 +15,6 @@ public class Main {
         // passando o objeto original
         Youtube youtube2 = new Youtube(video);
         youtube2.mostrarOpcao();
-
     }
 
 }

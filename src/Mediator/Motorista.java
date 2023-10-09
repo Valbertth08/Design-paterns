@@ -4,10 +4,8 @@ package Mediator;
 import java.util.Comparator;
 
 abstract class Motorista  {
-
     private String name;
     private Double preco;
-
     private Mediator mediator;
 
     public Motorista(String name, Double preco, Mediator mediator) {
@@ -15,7 +13,6 @@ abstract class Motorista  {
         this.preco = preco;
         this.mediator = mediator;
     }
-
     public String getName() {
         return name;
     }

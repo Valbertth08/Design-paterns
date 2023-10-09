@@ -16,7 +16,7 @@ public class Main {
         System.out.println("------- COM CLASSE DIRETOR-----------");
 
         Builder builder1 = new pizzaBuilder();
-      Diretor.criarPizzaFrangoCatupiry(builder1); ;
+        Diretor.criarPizzaFrangoCatupiry(builder1); ;
       System.out.println(builder1.getPizza());
 
       Builder builder2 = new pizzaBuilder();

@@ -20,19 +20,21 @@ public class Produto {
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public Double getPrice() {
+
         return price;
     }
     public Integer getId() {
+
         return id;
     }
 
     public void setPrice(Double price) {
         this.price = price;
-
         for (notificarProduto n: this.notificar){
             n.notificar(this);
         }
@@ -43,10 +45,11 @@ public class Produto {
     }
 
     public void addInterassado(notificarProduto notificar){
-       this.notificar.add(notificar);
+        this.notificar.add(notificar);
    }
 
     public void removeInterassado(notificarProduto notificar){
+
         this.notificar.remove(notificar);
     }
 }

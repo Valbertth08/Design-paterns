@@ -11,10 +11,12 @@ public class Jogo  implements CompositeCaixa{
     }
 
     public String getName() {
+
         return name;
     }
 
     public Double getPreco() {
+
         return preco;
     }
 

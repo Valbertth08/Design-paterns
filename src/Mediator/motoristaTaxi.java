@@ -8,6 +8,6 @@ public class motoristaTaxi extends Motorista{
 
     @Override
     Double enviarPreco(Motorista motorista) {
-     return motorista.getPreco();
+        return motorista.getPreco();
     }
 }
