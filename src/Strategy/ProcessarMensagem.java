@@ -8,9 +8,6 @@ public class ProcessarMensagem {
         this.mensagem = mensagem;
     }
 
-    public void setMensagem(Mensagem mensagem) {
-        this.mensagem = mensagem;
-    }
     public void ProcessandoMensagem(){
         mensagem.FormaDeEnvio();
         mensagem.FormaCodificao();
