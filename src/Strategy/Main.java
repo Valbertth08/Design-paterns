@@ -6,8 +6,8 @@ public class Main {
 
         ProcessarMensagem processar1 = new ProcessarMensagem(new MensagemTexto());
         processar1.ProcessandoMensagem();
-
-        ProcessarMensagem processar2 = new ProcessarMensagem(new MensagemTexto());
+        System.out.println();
+        ProcessarMensagem processar2 = new ProcessarMensagem(new MensagemAudio());
         processar2.ProcessandoMensagem();
 
     }
