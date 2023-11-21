@@ -5,11 +5,14 @@
 
             CafeBasico cafe = new CafeConcreto();
 
-            CafeDecorator cafeDecorator= new CafeDecorator1(cafe);
-            cafeDecorator.exibirIgredientes();
+            CafeDecorator CafeComLeite= new Leite(cafe);
+            CafeComLeite.exibirIgredientes();
 
-            CafeDecorator cafeDecorator2= new CafeDecorator2(cafe);
-            cafeDecorator2.exibirIgredientes();
+            CafeDecorator leiteCreme= new Leite(new CremeDeLeite(cafe));
+            leiteCreme.exibirIgredientes();
+
+            CafeDecorator leiteCremeAçucar= new Açucar(leiteCreme);
+            leiteCremeAçucar.exibirIgredientes();
 
 
         }
