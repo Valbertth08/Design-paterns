@@ -1,6 +1,6 @@
 package Decorator;
 
-public  class CafeContreto implements CafeBasico {
+public  class CafeConcreto implements CafeBasico {
 
     @Override
     public void exibirIgredientes() {

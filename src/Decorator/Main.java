@@ -3,7 +3,7 @@
     public class Main {
         public static void main(String[] args) {
 
-            CafeBasico cafe = new CafeContreto();
+            CafeBasico cafe = new CafeConcreto();
 
             CafeDecorator cafeDecorator= new CafeDecorator1(cafe);
             cafeDecorator.exibirIgredientes();
